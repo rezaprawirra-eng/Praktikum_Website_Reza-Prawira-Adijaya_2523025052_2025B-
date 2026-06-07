@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulasi Lalu Lintas 3D - Three.js</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+
+    <div id="ui-container">
+        <h3>Kontrol Simulasi</h3>
+        <button id="btn-start">Start</button>
+        <button id="btn-pause">Pause</button>
+        <button id="btn-reset">Reset</button>
+        <div id="controls-info">
+            <strong>Keyboard:</strong><br>
+            W = Percepat | S = Perlambat<br>
+            <strong>Mouse:</strong><br>
+            Klik Lampu = Ubah Warna<br>
+            Hover Mobil = Info Kendaraan
+        </div>
+    </div>
+
+    <div id="tooltip">Mobil Sedan</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
